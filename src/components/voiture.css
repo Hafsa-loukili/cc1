@@ -1,0 +1,28 @@
+.voiture-card {
+    border: 1px solid #007bff; /* Bordure bleue */
+    border-radius: 8px; /* Coins arrondis */
+    transition: transform 0.2s; /* Animation de transformation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+
+
+.voiture-image {
+    height: 200px;
+    object-fit: cover;
+    transition: filter 0.3s; 
+}
+
+.btn-success {
+    background-color: #28a745; /* Couleur personnalisée */
+    border-color: #28a745; /* Couleur de bordure */
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    border-color: #dc3545; 
+}
+
+.btn {
+    font-weight: bold;
+}
